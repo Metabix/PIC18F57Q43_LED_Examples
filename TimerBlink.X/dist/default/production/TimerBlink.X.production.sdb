@@ -1,0 +1,215 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F57Q43 ]
+[d frameptr 1249 ]
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"23 C:\Users\Mo\Desktop\git projects\microchip\PIC18F57Q43_LED_Examples\TimerBlink.X\main.c
+[v _clock_init clock_init `(v  1 e 1 0 ]
+"29
+[v _timer0_init timer0_init `(v  1 e 1 0 ]
+"42
+[v _timer0_start timer0_start `(v  1 e 1 0 ]
+"52
+[v _timer0_ISR timer0_ISR `(v  1 e 1 0 ]
+"60
+[v _DEFAULT_ISR DEFAULT_ISR `IIH(v  1 e 1 0 ]
+"68
+[v _interrupt_init interrupt_init `(v  1 s 1 interrupt_init ]
+"76
+[v _main main `(v  1 e 1 0 ]
+"5210 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-Q_DFP/1.24.430/xc8\pic\include\proc\pic18f57q43.h
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"5448
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"23298
+[v _TMR0L TMR0L `VEuc  1 e 1 @792 ]
+"23436
+[v _TMR0H TMR0H `VEuc  1 e 1 @793 ]
+"23690
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @794 ]
+[s S93 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 MD16 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"23724
+[s S99 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T0MD16 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+[s S105 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 T016BIT 1 0 :1:4 
+]
+[s S111 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S116 . 1 `S93 1 . 1 0 `S99 1 . 1 0 `S105 1 . 1 0 `S111 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES116  1 e 1 @794 ]
+"23814
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @795 ]
+[s S72 . 1 `uc 1 SPI1RXIP 1 0 :1:0 
+`uc 1 SPI1TXIP 1 0 :1:1 
+`uc 1 SPI1IP 1 0 :1:2 
+`uc 1 TMR2IP 1 0 :1:3 
+`uc 1 TMR1IP 1 0 :1:4 
+`uc 1 TMR1GIP 1 0 :1:5 
+`uc 1 CCP1IP 1 0 :1:6 
+`uc 1 TMR0IP 1 0 :1:7 
+]
+"32039
+[u S81 . 1 `S72 1 . 1 0 ]
+[v _IPR3bits IPR3bits `VES81  1 e 1 @869 ]
+[s S213 . 1 `uc 1 ANSELF0 1 0 :1:0 
+`uc 1 ANSELF1 1 0 :1:1 
+`uc 1 ANSELF2 1 0 :1:2 
+`uc 1 ANSELF3 1 0 :1:3 
+`uc 1 ANSELF4 1 0 :1:4 
+`uc 1 ANSELF5 1 0 :1:5 
+`uc 1 ANSELF6 1 0 :1:6 
+`uc 1 ANSELF7 1 0 :1:7 
+]
+"42065
+[u S222 . 1 `S213 1 . 1 0 ]
+"42065
+"42065
+[v _ANSELFbits ANSELFbits `VES222  1 e 1 @1064 ]
+[s S51 . 1 `uc 1 SPI1RXIE 1 0 :1:0 
+`uc 1 SPI1TXIE 1 0 :1:1 
+`uc 1 SPI1IE 1 0 :1:2 
+`uc 1 TMR2IE 1 0 :1:3 
+`uc 1 TMR1IE 1 0 :1:4 
+`uc 1 TMR1GIE 1 0 :1:5 
+`uc 1 CCP1IE 1 0 :1:6 
+`uc 1 TMR0IE 1 0 :1:7 
+]
+"47289
+[u S60 . 1 `S51 1 . 1 0 ]
+"47289
+"47289
+[v _PIE3bits PIE3bits `VES60  1 e 1 @1185 ]
+[s S30 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
+`uc 1 SPI1TXIF 1 0 :1:1 
+`uc 1 SPI1IF 1 0 :1:2 
+`uc 1 TMR2IF 1 0 :1:3 
+`uc 1 TMR1IF 1 0 :1:4 
+`uc 1 TMR1GIF 1 0 :1:5 
+`uc 1 CCP1IF 1 0 :1:6 
+`uc 1 TMR0IF 1 0 :1:7 
+]
+"48163
+[u S39 . 1 `S30 1 . 1 0 ]
+"48163
+"48163
+[v _PIR3bits PIR3bits `VES39  1 e 1 @1201 ]
+[s S145 . 1 `uc 1 LATF0 1 0 :1:0 
+`uc 1 LATF1 1 0 :1:1 
+`uc 1 LATF2 1 0 :1:2 
+`uc 1 LATF3 1 0 :1:3 
+`uc 1 LATF4 1 0 :1:4 
+`uc 1 LATF5 1 0 :1:5 
+`uc 1 LATF6 1 0 :1:6 
+`uc 1 LATF7 1 0 :1:7 
+]
+"49158
+[u S154 . 1 `S145 1 . 1 0 ]
+"49158
+"49158
+[v _LATFbits LATFbits `VES154  1 e 1 @1219 ]
+[s S192 . 1 `uc 1 TRISF0 1 0 :1:0 
+`uc 1 TRISF1 1 0 :1:1 
+`uc 1 TRISF2 1 0 :1:2 
+`uc 1 TRISF3 1 0 :1:3 
+`uc 1 TRISF4 1 0 :1:4 
+`uc 1 TRISF5 1 0 :1:5 
+`uc 1 TRISF6 1 0 :1:6 
+`uc 1 TRISF7 1 0 :1:7 
+]
+"49500
+[u S201 . 1 `S192 1 . 1 0 ]
+"49500
+"49500
+[v _TRISFbits TRISFbits `VES201  1 e 1 @1227 ]
+[s S166 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"49913
+[s S174 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"49913
+[u S177 . 1 `S166 1 . 1 0 `S174 1 . 1 0 ]
+"49913
+"49913
+[v _INTCON0bits INTCON0bits `VES177  1 e 1 @1238 ]
+"76 C:\Users\Mo\Desktop\git projects\microchip\PIC18F57Q43_LED_Examples\TimerBlink.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"93
+} 0
+"42
+[v _timer0_start timer0_start `(v  1 e 1 0 ]
+{
+"45
+} 0
+"29
+[v _timer0_init timer0_init `(v  1 e 1 0 ]
+{
+"40
+} 0
+"68
+[v _interrupt_init interrupt_init `(v  1 s 1 interrupt_init ]
+{
+"74
+} 0
+"23
+[v _clock_init clock_init `(v  1 e 1 0 ]
+{
+"27
+} 0
+"60
+[v _DEFAULT_ISR DEFAULT_ISR `IIH(v  1 e 1 0 ]
+{
+"66
+} 0
+"52
+[v _timer0_ISR timer0_ISR `(v  1 e 1 0 ]
+{
+"58
+} 0
